@@ -1,0 +1,5 @@
+name: Heroku Rebuild Webhook
+description: URL endpoint to rebuild the Heroku app
+package: CU Atlas Modules
+type: module
+core: 8.x

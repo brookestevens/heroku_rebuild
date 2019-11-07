@@ -1,0 +1,14 @@
+heroku_rebuild_hook.settings:
+  path: '/admin/config/system/heroku_rebuild_hook/settings'
+  defaults:
+    _form: '\Drupal\heroku_rebuild_hook\Form\HerokuRebuildHookForm'
+    _title: 'Heroku Platform API Settings'
+  requirements:
+    _permission: 'administer site configuration'
+heroku_rebuild_hook.rebuild:
+  path: '/api/rebuild'
+  defaults:
+    _controller: '\Drupal\heroku_rebuild_hook\Controller\HerokuRebuildHookController::buildApp'
+  methods: 'POST'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,6 @@
+heroku_rebuild_hook.admin:
+  title: 'Heroku Rebuild Config'
+  description: 'Heroku Platform API config form'
+  parent: system.admin_config_system
+  route_name: heroku_rebuild_hook.settings
+  weight: 100

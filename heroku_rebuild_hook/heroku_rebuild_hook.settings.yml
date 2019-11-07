@@ -1,0 +1,5 @@
+github_tarball_url: "https://github.com/{user}/{repo}/archive/master.tar.gz"
+github_API_key: "Enter API key here"
+github_master_url: "https://api.github.com/repos/{user}/{repo}/commits/master"
+heroku_build_url: "https://api.heroku.com/apps/{app-name}/builds"
+heroku_API_key: "Enter API key here"
